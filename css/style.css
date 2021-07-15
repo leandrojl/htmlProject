@@ -1,26 +1,147 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .imageSection{
     
 }
 a{
     text-decoration: none;
-    color: black;
+    
 }
 nav{
     background-color: rgb(170, 168, 168);
 }
 .navMenu li a{
     color: black;
-    font-size: 20px;
+    font-size: 30px;
+    margin: 30px;
+    padding: 15px;
 }
 .navMenu li{
-    display: inline;
+    display: inline-block;
     padding: 5px;
+    margin: 15px;
+    
 }
 .navMenu{
-}
+    background-color:red;
+    text-align: center;
+    }
 .nav-menu li{
     list-style: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropDownContent{
+    display: none;
+    position: absolute;
+    background-color: red;
+    
+    
+}
+.dropDownContent a{
+    padding: 10px;
+    margin: 10px;
+    
+}
+.dropdown:hover .dropDownContent{
+    display: block;
+}
+
+/* index.html CSS */
+#indexMainTitle{
+    text-align: center;
+    font-size: 40px;
+    /* border: solid 1px black; */
+    margin: 30px;
+    padding: 15px;
+    color: black;
+    font-family: 'Otomanopee One', sans-serif;
+    letter-spacing: 15px;
+}
+.imageSection{
+    margin: 30px;
+}
+.imageSection img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#containerAboutUs{
+    background-color: rgb(221, 45, 45);
+    text-align: center;
+    margin: 30px;
+    border: solid 3px black;
+}
+#containerProducts{
+    background-color: rgb(1, 27, 12);
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    margin: 30px;
+    border: solid 3px black;
+}
+#newsContainer{
+    background-color: rgb(221, 45, 45);
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    margin: 30px;
+    border: solid 3px black;
+}
+/* ----------- */
+/* news.html CSS */
+#newsMainTitle{
+    text-align: center;
+    font-size: 40px;
+    /* border: solid 1px black; */
+    margin: 30px;
+    padding: 15px;
+    color: black;
+    font-family: 'Otomanopee One', sans-serif;
+    letter-spacing: 15px;
+}
+#newsIntroContainer{
+    border: solid 2px black;
+    margin: 30px;
+    padding: 15px;
+}
+#newsMidContainer{
+    border: solid 2px black;
+    margin: 30px;
+    padding: 15px;
+}
+#newsEndContainer{
+    border: solid 2px black;
+    margin: 30px;
+    padding: 15px;
+}
+#graphicNewsContainer div{
+    border: solid 2px black;
+    margin: 30px;
+    padding: 15px;
+
+}
+/* ---------- */
+/* about-us.html CSS */
+#aboutUsMainTitle{
+    text-align: center;
+    font-size: 40px;
+    /* border: solid 1px black; */
+    margin: 30px;
+    padding: 15px;
+    color: black;
+    font-family: 'Otomanopee One', sans-serif;
+    letter-spacing: 15px;
+}
+#aboutUsContainer{
+    border: solid 2px black;
+    margin: 30px;
+    padding: 50px;
 }
 #containerAboutUs p{
     text-align: center;
@@ -34,11 +155,39 @@ nav{
 
 
 }
-#containerAboutUs h2 a{
+
+/* -----------/
+/* products.html CSS */
+#productsTitle{
+    text-align: center;
     font-size: 40px;
-    text-transform: lowercase;
-    
-    
+    /* border: solid 1px black; */
+    margin: 30px;
+    padding: 15px;
+    color: black;
+    font-family: 'Otomanopee One', sans-serif;
+    letter-spacing: 15px;
+}
+#productsGallery div{
+    border: solid 2px black;
+    margin: 30px;
+    padding: 15px;
+}
+#sectionParameter{
+    border: solid 2px black;
+    margin: 30px;
+    padding: 20px;
+}
+#sectionParameter #searchParametersContainer{
+    border: solid 2px white;
+    margin: 30px;
+    padding: 20px;
+}
+
+#sectionParameter #pricesBox{
+    border: solid 2px white;
+    margin: 30px;
+    padding: 20px;
 }
 .itemListProducts{
     background-color: rgb(3, 3, 3);
@@ -69,6 +218,19 @@ nav{
     
     
 }
+/* ----------*/
+
+/* contact-us.html CSS */
+#contactUsMainTitle{
+    text-align: center;
+    font-size: 40px;
+    /* border: solid 1px black; */
+    margin: 30px;
+    padding: 15px;
+    color: black;
+    font-family: 'Otomanopee One', sans-serif;
+    letter-spacing: 15px;
+}
 .formContainer{
     margin: 15px;
     padding: 15px;
@@ -79,17 +241,29 @@ nav{
     
      
 }
+/* ---------- */
+
+/* FAQ CSS of all .html */
 .faqContainer{
     background-color: rgb(32, 30, 30);
     padding: 15px;
     border: solid 1px white;
+    margin: 30px;
+    padding: 15px;
     
 
+}
+.faqContainer h2{
+    text-align: center;
+    font-size: 40px;
 }
 .faqContainer p{
     font-size: 20px;
     font-weight: bold;
     text-align: justify;
+    /* border: solid 1px white; */
+    margin: 15px;
+    padding: 10px;
     
 }
 .faqContainer .faqQuestion{
@@ -97,6 +271,8 @@ nav{
     color: rgb(165, 148, 70);
     font-weight: bold;
 }
+
+/* ---------- */
 
 footer{
     background-color: rgb(170, 168, 168);
