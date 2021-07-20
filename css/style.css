@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
 }
-.imageSection{
+html{
+    font-family: 'Encode Sans SC', sans-serif;
     
-}
+  }
 a{
     text-decoration: none;
     
@@ -45,56 +46,151 @@ nav{
 .dropDownContent a{
     padding: 10px;
     margin: 10px;
+    display: block;
+    border: solid 1px black;
     
 }
 .dropdown:hover .dropDownContent{
     display: block;
 }
 
-/* index.html CSS */
+/* index.html CSS --------------------------------------------------------------------------------------*/
 #indexMainTitle{
     text-align: center;
     font-size: 40px;
     /* border: solid 1px black; */
     margin: 30px;
     padding: 15px;
-    color: black;
+    color: white;
     font-family: 'Otomanopee One', sans-serif;
     letter-spacing: 15px;
 }
-.imageSection{
-    margin: 30px;
+
+html{
+    font-family: 'Encode Sans SC', sans-serif;
+    
 }
-.imageSection img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+#imageSection{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border: solid 1px red;
+    margin: 10px;
+    padding: 30px;
+    color: white;
+    background-color: black;
 }
 #containerAboutUs{
-    background-color: rgb(221, 45, 45);
-    text-align: center;
-    margin: 30px;
-    border: solid 3px black;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border: solid 1px red;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 30px;
+    
 }
-#containerProducts{
-    background-color: rgb(1, 27, 12);
-    text-align: center;
-    padding: 10px;
-    overflow: hidden;
-    margin: 30px;
-    border: solid 3px black;
+#containerAboutUs h2{
+margin: 20px;
+}
+#containerAboutUs button{
+    margin: 20px;
 }
 #newsContainer{
-    background-color: rgb(221, 45, 45);
-    text-align: center;
-    padding: 10px;
-    overflow: hidden;
-    margin: 30px;
-    border: solid 3px black;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border: solid 1px red;
+    margin: 10px;
+    padding: 30px;
+    color: white;
+    background-color: black;
 }
+#newsContainer h2{
+    margin: 20px;
+    padding: 20px;
+}
+#newsContainer button{
+    margin: 20px;
+    
+}
+#containerProducts{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border: solid 1px red;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 30px;
+}
+#containerProducts li{
+    font-size: 24px;
+    
+    margin: 10px;
+    padding: 15px;
+    font-weight: bold;
+    list-style: none;
+}
+#containerProducts button{
+    margin: 30px;
+}
+.footer-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-size: 14px;  
+    background-color: black;
+    border: solid 1px white;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    flex-grow: 1; 
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin: 25px;  
+    border: solid 5px red;
+    padding: 15px;  
+}
+.footer-box a{
+    color: green;
+    padding: 10px;
+    
+    
+    text-decoration: none;
+}
+.footer-box button{
+    margin: 10px;
+}
+.footer-box label{
+    margin: 10px;
+}
+.footer-box input{
+    margin: 10px;
+}
+.to-the-top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: black;  
+    padding: 30px;
+    margin: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border: solid 1px white;
+}
+.to-the-top a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+   }
 /* ----------- */
-/* news.html CSS */
+/* news.html CSS --------------------------------------------------------------------------------------*/
 #newsMainTitle{
     text-align: center;
     font-size: 40px;
@@ -127,7 +223,7 @@ nav{
 
 }
 /* ---------- */
-/* about-us.html CSS */
+/* about-us.html CSS --------------------------------------------------------------------------------------*/
 #aboutUsMainTitle{
     text-align: center;
     font-size: 40px;
@@ -157,7 +253,7 @@ nav{
 }
 
 /* -----------/
-/* products.html CSS */
+/* products.html CSS --------------------------------------------------------------------------------------*/
 #productsTitle{
     text-align: center;
     font-size: 40px;
@@ -168,56 +264,77 @@ nav{
     font-family: 'Otomanopee One', sans-serif;
     letter-spacing: 15px;
 }
+#productsGallery{
+    
+    border: solid 3px white;
+}
 #productsGallery div{
     border: solid 2px black;
     margin: 30px;
     padding: 15px;
+    
 }
 #sectionParameter{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    
     border: solid 2px black;
     margin: 30px;
     padding: 20px;
+    
+    
 }
-#sectionParameter #searchParametersContainer{
+.searchParametersContainer{
     border: solid 2px white;
     margin: 30px;
     padding: 20px;
 }
 
-#sectionParameter #pricesBox{
+.pricesBox{
+    
+    display: flex;
+    background-color: green;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
     border: solid 2px white;
     margin: 30px;
-    padding: 20px;
-}
-.itemListProducts{
-    background-color: rgb(3, 3, 3);
+    padding: 50px;
     
 }
-.itemListProducts2{
-    background-color: rgb(153, 33, 33);
+.pricesBox a{
+    padding: 15px;
+}
+.moreProductsContainer{
+    
+    background-color: rgb(3, 3, 3);
+    margin: 30px;
+    padding: 15px;
+    border: solid 2px green;
+    text-align: center;
+
+}
+.moreProductsContainer h3{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: red;
+}
+.itemListProducts{
     
     
 }
 .itemListProducts li{
-    list-style-type: disc;
-    margin: 20px;
+    color: red;
+    font-size: 20px;
+    border: solid 2px white;
+    list-style: none;
+    margin: 30px;
     padding: 15px;
-    
-    
-    
-    
-    
 }
-.itemListProducts2 li{
-    list-style: square inside;
-    margin: 20px;
-    padding: 15px;
-    
-    
-    
-    
-    
-}
+
+
 /* ----------*/
 
 /* contact-us.html CSS */
@@ -281,14 +398,7 @@ body{
     background-color: grey;
     color: white;
 }
-h1{
-    color: black;
-    text-transform: uppercase;
-}
-h2{
-    color: rgb(179, 0, 0);
-    font-family: 'Otomanopee One', sans-serif;
-}
+
 p{
     font-size: 20px;
     font-weight: bold;

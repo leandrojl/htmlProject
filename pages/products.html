@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap" rel="stylesheet">
     <title>ALLURE SECURE | PRODUCTS</title>
 </head>
 <body>
@@ -40,22 +43,13 @@
 
     <main>
         <h1 id="productsTitle">PRODUCTS</h1>
-        <section id="sectionParameter">
-            <div id="searchParametersContainer">
-                <div id="parametersBox">
-                    <h4>Parameters</h4>
-                    <a href="#">Parameter 1</a>
-                    <a href="#">Parameter 2</a>
-                    <a href="#">Parameter 3</a>
-                    <a href="#">Parameter 4</a>
-                    <a href="#">Parameter 5</a>
-                    <a href="#">Parameter 6</a>
-                    <a href="#">Parameter 7</a>
-                </div>
-            </div>
-
-            <div id="pricesBox">
-                <h4>Prices</h4>
+        <aside id="sectionParameter">
+            <div id="searchProductInput">
+            <label for="searchProduct">Your search:</label>
+            <input type="text" id="searchProduct" name="searchEngine" placeholder="Your search...">
+            </div> 
+            <div class="pricesBox">
+                <h4>Parameters:</h4>
                 <a href="#">Price 1</a>
                 <a href="#">Price 2</a>
                 <a href="#">Price 3</a>
@@ -64,7 +58,20 @@
                 <a href="#">Price 6</a>
 
             </div>
-        </section>
+
+            <div class="pricesBox">
+                <h4>Prices:</h4>
+                <a href="#">Price 1</a>
+                <a href="#">Price 2</a>
+                <a href="#">Price 3</a>
+                <a href="#">Price 4</a>
+                <a href="#">Price 5</a>
+                <a href="#">Price 6</a>
+
+            </div>
+            <input type="submit" value="Submit">
+        
+        </aside>
         <section>
             <div id="productsGallery">
                 <div>
@@ -161,8 +168,8 @@
             </div>
         </section>
         <section>
-        <div>
-            <h2>MORE PRODUCTS</h2>
+        <div class="moreProductsContainer">
+            <h3>MORE PRODUCTS</h3>
             <ul class="itemListProducts">
                 <li>ITEM 1</li>
                 <li>ITEM 2</li>
@@ -174,6 +181,7 @@
         </div>
     
         <div>
+            <h3>ITEM LIST</h3>
             <ul class="itemListProducts2">
                 <li>ITEM 1</li>
                 <li>ITEM 2</li>
@@ -229,51 +237,40 @@
     </main>
 
 
-    <footer>
-        <div>
-            <h3>ABOUT</h3>
-            <ul>
-                <li><a href="about-us.html">ABOUT US</a></li>
-                <li><a href="#">FAQS</a></li>
-                <li><a href="contact-us.html">CONTACT US</a></li>
-                <li><a href="#">PRIVACY POLICY</a></li>
-                <li><a href="#">TERMS & CONDITIONS</a></li>
-                <p>ALLURESECURE 2021 ALL RIGHTS RESERVED</p>
-                
-            </ul>
+    <div class="to-the-top">
+        <a href="#">HOME</a>
+      </div>
+      <div class="footer-container">
+        <div class="footer-box">
+          <h3>ABOUT US</h3>
+          <a href="">FAQS</a>
+          <a href="">LOCATION</a>
+          <a href="">PRIVACY POLICY</a>    
         </div>
-        <div>
-            <h3>PRODUCTS</h3>
-    
-            <ul>
-                <li>PRODUCT 1</li>
-                <li>PRODUCT 2</li>
-                <li>PRODUCT 3</li>
-                <li>PRODUCT 4</li>
-                <li>PRODUCT 5</li>
-                <li>PRODUCT 6</li>
-            </ul>
+        <div class="footer-box">
+          <h3>PRODUCTS</h3>
+          <a href="">INDIVIDUAL</a>
+          <a href="">ECONOMIC</a>
+          <a href="">COMPANY</a>    
         </div>
-        <div>
-            <h3>SUSCRIBE TO OUR NEWSLETTERS AND BIG DISCOUNTS!</h3>
-            <input type="text"> <button>SEND</button><br>
-        </div> 
-        <div>
-            <img src="../images/a-logo.png" alt="a-logo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptate doloremque vero, 
-                dolorum, quia dicta molestiae qui porro doloribus consequuntur alias? Commodi, perferendis! Dolores unde 
-                consequatur velit illum ex veritatis?
-            </p>
+        <div class="footer-box">
+          <h3>SOCIAL MEDIA</h3>
+          <a href="">FACEBOOK</a>
+          <a href="">TWITTER</a>
+          <a href="">INSTAGRAM</a>    
         </div>
-            
-        <div>
-            <img src="../images/linkeding.png" alt="linkedin">
-            <img src="../images/instagram.png" alt="instagram">
-            <img src="../images/facebook.png" alt="facebook">
-            <img src="../images/twitter.png" alt="twitter">
+        <div class="footer-box">
+          <h3>SUSCRIBE TO OUR NEWSLETTER</h3>
+          <label for="newsletter">Your email:</label>
+          <input type="text" id="newsletter">
+          <button>Send</button>
         </div>
-            
-    
-    </footer>
+        <div class="footer-box">
+          <h3>LANGUAGE:</h3>
+          <a href="">ENGLISH</a>
+          <a href="">ESPAÑOL</a>
+        </div>
+        
+      </div>
 </body>
 </html>
