@@ -29,19 +29,17 @@ nav{
     margin: 30px;
     padding: 15px;
 }
-.navMenu li{
-    display: inline-block;
-    
-}
+
 .navMenu{
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-evenly;
+    width: 100%;
     align-items: center;
-    background-color:white
-    text-align: center;
+    background-color:white;
+    
 }
-.nav-menu li{
+.navMenu li{
     list-style: none;
 }
 .dropdown{
