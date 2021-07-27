@@ -32,9 +32,13 @@ nav{
     margin: 30px;
     padding: 15px;
 }
+.navMenu li a:hover{
+    color:red;
+    
+}
 
 .navMenu{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
