@@ -87,11 +87,13 @@ html{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    justify-content: center;
     transform: translate(100px, 200p);
-    margin-bottom: 30px;
+    margin-bottom: 120px;
     padding: 30px;
     color: white;
-    background-image: linear-gradient(to right, rgb(238, 238, 238), rgb(14, 11, 11));
+    background-image: linear-gradient(to top, rgb(238, 238, 238), rgb(14, 11, 11));
+    height: 200px;
 }
 #containerAboutUs{
     display: flex;
@@ -101,6 +103,7 @@ html{
     background-color: black;
     color: white;
     margin: 30px;
+    margin-bottom: 100px;
     padding: 30px;
     
 }
@@ -116,6 +119,7 @@ margin: 20px;
     align-items: center;
     
     margin: 30px;
+    margin-bottom: 100px;
     padding: 30px;
     color: white;
     background-color: black;
@@ -136,6 +140,7 @@ margin: 20px;
     
     color: white;
     margin: 30px;
+    margin-bottom: 100px;
     padding: 30px;
 }
 #containerProducts li{
@@ -247,6 +252,7 @@ margin: 20px;
     grid-template-rows: repeat(4, 3fr);
     gap: 10px;
     margin: 30px;
+    margin-bottom: 100px;
     
   }
   .main-title{
@@ -516,6 +522,7 @@ margin: 20px;
     padding: 15px;
     border: solid 1px white;
     margin: 30px;
+    margin-top: 100px;
     padding: 15px;
     
 
