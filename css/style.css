@@ -6,9 +6,11 @@ html{
     font-family: 'Encode Sans SC', sans-serif;
     
 }
+
 body{
     background-color: white;
-    color: white;
+    color: black;
+    
     
     
 }
@@ -21,7 +23,8 @@ a{
 nav{
     display: flex;
     flex-direction: row;
-    border-bottom: solid 2px black;
+    border-bottom: solid 1px black;
+    
     
 }
 .navMenu li a{
@@ -43,7 +46,7 @@ nav{
     justify-content: space-evenly;
     width: 100%;
     align-items: center;
-    background-image: linear-gradient(to right,white ,gray);
+    background-image: white;
     
 }
 .navMenu li{
@@ -74,11 +77,11 @@ nav{
 /* index.html CSS --------------------------------------------------------------------------------------*/
 .indexMainTitle{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     /* border: solid 1px black; */
     margin: 30px;
     padding: 15px;
-    color: white;
+    color: black;
     font-family: 'Otomanopee One', sans-serif;
     letter-spacing: 15px;
 }
@@ -87,7 +90,7 @@ html{
     font-family: 'Encode Sans SC', sans-serif;
     
 }
-.imageSection{
+/*.imageSection{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -95,10 +98,10 @@ html{
     transform: translate(100px, 200p);
     margin-bottom: 120px;
     padding: 30px;
-    color: white;
-    background-image: linear-gradient(to top, rgb(238, 238, 238), rgb(14, 11, 11));
+    color: black;
+    
     height: 200px;
-}
+}*/
 #containerAboutUs{
     display: flex;
     flex-flow: column wrap;
@@ -136,13 +139,23 @@ margin: 20px;
     margin: 20px;
     
 }
+
+.boxPresentation{
+    
+}
+.containerCards{
+    
+    margin-top: 30px;
+    padding: 40px;
+    
+}
 #containerProducts{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    background-image: linear-gradient(to bottom, black,green);
-    
+    background: black;
     color: white;
+    
     margin: 30px;
     margin-bottom: 100px;
     padding: 30px;
@@ -524,6 +537,7 @@ margin: 20px;
 .faqContainer{
     background-color: rgb(32, 30, 30);
     padding: 15px;
+    color: white;
     border: solid 1px white;
     margin: 30px;
     margin-top: 100px;
