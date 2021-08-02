@@ -15,65 +15,11 @@ body{
     
 }
 
-
-a{
-    text-decoration: none;
+/* NAVBAR -------------------------------------------------*/
+#logo-webpage{
+    height: 60px;
     
 }
-nav{
-    display: flex;
-    flex-direction: row;
-    border-bottom: solid 1px black;
-    
-    
-}
-.navMenu li a{
-    color: black;
-    font-size: 30px;
-    letter-spacing: 2px;
-    font-weight: bold;
-    margin: 30px;
-    padding: 15px;
-}
-.navMenu li a:hover{
-    color:red;
-    
-}
-
-.navMenu{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-    align-items: center;
-    background-image: white;
-    
-}
-.navMenu li{
-    list-style: none;
-}
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-.dropDownContent{
-    display: none;
-    position: absolute;
-    background-color: red;
-    
-    
-}
-.dropDownContent a{
-    padding: 10px;
-    margin: 10px;
-    display: block;
-    border: solid 1px black;
-    
-}
-.dropdown:hover .dropDownContent{
-    display: block;
-}
-
 /* index.html CSS --------------------------------------------------------------------------------------*/
 .indexMainTitle{
     text-align: center;
