@@ -1,41 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-html{
-    font-family: 'Encode Sans SC', sans-serif;
-    
-}
+* {
+  margin: 0;
+  padding: 0; }
 
-body{
-    background-color: white;
-    color: black;
-    
-    
-    
-}
+html {
+  font-family: "Encode Sans SC", sans-serif; }
+
+body {
+  background-color: #ebebeb !important;
+  color: black; }
 
 /* NAVBAR -------------------------------------------------*/
-#logo-webpage{
-    height: 60px;
-    
-}
-/* index.html CSS --------------------------------------------------------------------------------------*/
-.indexMainTitle{
-    text-align: center;
-    font-size: 50px;
-    /* border: solid 1px black; */
-    margin: 30px;
-    padding: 15px;
-    color: black;
-    font-family: 'Otomanopee One', sans-serif;
-    letter-spacing: 15px;
-}
+#logo-webpage {
+  height: 60px; }
 
-html{
-    font-family: 'Encode Sans SC', sans-serif;
-    
-}
+/* index.html CSS --------------------------------------------------------------------------------------*/
+.section__mainTitle--style {
+  text-align: center;
+  font-size: 50px;
+  /* border: solid 1px black; */
+  margin: 30px;
+  padding: 15px;
+  color: black;
+  font-family: 'Otomanopee One', sans-serif;
+  letter-spacing: 15px; }
+
+html {
+  font-family: 'Encode Sans SC', sans-serif; }
+
 /*.imageSection{
     display: flex;
     flex-flow: column wrap;
@@ -48,549 +39,447 @@ html{
     
     height: 200px;
 }*/
-#containerAboutUs{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    
-    background-color: black;
-    color: white;
-    margin: 30px;
-    margin-bottom: 100px;
-    padding: 30px;
-    
-}
-#containerAboutUs h2{
-margin: 20px;
-}
-#containerAboutUs button{
-    margin: 20px;
-}
-#newsContainer{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    
-    margin: 30px;
-    margin-bottom: 100px;
-    padding: 30px;
-    color: white;
-    background-color: black;
-}
-#newsContainer h2{
-    margin: 20px;
-    padding: 20px;
-}
-#newsContainer button{
-    margin: 20px;
-    
-}
+#containerAboutUs {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin: 30px;
+  margin-bottom: 100px;
+  padding: 30px; }
 
-.boxPresentation{
-    
-}
-.containerCards{
-    
-    margin-top: 30px;
-    padding: 40px;
-    
-}
-#containerProducts{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    background: black;
-    color: white;
-    
-    margin: 30px;
-    margin-bottom: 100px;
-    padding: 30px;
-}
-#containerProducts li{
-    font-size: 24px;
-    
-    margin: 10px;
-    padding: 15px;
-    font-weight: bold;
-    list-style: none;
-}
-#containerProducts button{
-    margin: 30px;
-}
-.footer-container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    font-size: 14px;  
-    background-image: linear-gradient(to bottom, white, gray);
-    
-}
-.footer-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;  
-    flex-grow: 1; 
-    color: white;
-    letter-spacing: 3px;
-    font-weight: bold;
-    margin: 25px;  
-    
-    padding: 15px;  
-}
-.footer-box a{
-    color: black;
-    padding: 10px;
-    
-    
-    text-decoration: none;
-}
-.footer-box a:hover{
-    color: blue;
-}
-.footer-box h3{
-    color: black;
-    margin: 10px;
-    text-decoration: underline;
-    transition: all 1s;
-}
+#containerAboutUs h2 {
+  margin: 20px; }
+
+#containerAboutUs button {
+  margin: 20px; }
+
+#newsContainer {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin: 30px;
+  margin-bottom: 100px;
+  padding: 30px;
+  color: white;
+  background-color: black; }
+
+#newsContainer h2 {
+  margin: 20px;
+  padding: 20px; }
+
+#newsContainer button {
+  margin: 20px; }
+
+.containerCards {
+  margin-top: 30px;
+  padding: 40px; }
+
+#containerProducts {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background: black;
+  color: white;
+  margin: 30px;
+  margin-bottom: 100px;
+  padding: 30px; }
+
+#containerProducts li {
+  font-size: 24px;
+  margin: 10px;
+  padding: 15px;
+  font-weight: bold;
+  list-style: none; }
+
+#containerProducts button {
+  margin: 30px; }
+
+.footer-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  font-size: 14px;
+  background-image: linear-gradient(to bottom, white, gray); }
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin: 25px;
+  padding: 15px; }
+
+.footer-box a {
+  color: black;
+  padding: 10px;
+  text-decoration: none; }
+
+.footer-box a:hover {
+  color: blue; }
+
+.footer-box h3 {
+  color: black;
+  margin: 10px;
+  text-decoration: underline;
+  transition: all 1s; }
+
 .footer-box h3:hover {
-    color:red;
-    
-    
-    transform: translate(0px, -15px);
-}
-.footer-box button{
-    margin: 10px;
-}
-.footer-box label{
-    margin: 10px;
-}
-.footer-box input{
-    margin: 10px;
-}
-.to-the-top{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    background-color: black;  
-    padding: 30px;
-    margin: 30px;
-    letter-spacing: 3px;
-    font-weight: bold;
-    border: solid 1px white;
+  color: red;
+  transform: translate(0px, -15px); }
 
-}
-.to-the-top:hover{
-    transform: skew(-10deg);
-    background-color: red;
-}
-.to-the-top a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    
-   }
+.footer-box button {
+  margin: 10px; }
+
+.footer-box label {
+  margin: 10px; }
+
+.footer-box input {
+  margin: 10px; }
+
+.to-the-top {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: black;
+  padding: 30px;
+  margin: 30px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  border: solid 1px white; }
+
+.to-the-top:hover {
+  transform: skew(-10deg);
+  background-color: red; }
+
+.to-the-top a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px; }
+
 /* ----------- */
 /* news.html CSS --------------------------------------------------------------------------------------*/
-#newsMainTitle{
-    text-align: center;
-    font-size: 40px;
-    /* border: solid 1px black; */
-    margin: 30px;
-    padding: 15px;
-    color: black;
-    font-family: 'Otomanopee One', sans-serif;
-    letter-spacing: 15px;
-}
-.grid-news-container{
-    display: grid;
-    grid-template-areas:
-      "h1Title h1Title"
-      "newsIntro newsIntro"
-      "newsMid newsEnd"
-      "noticias noticias";
-      
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 3fr);
-    gap: 10px;
-    margin: 30px;
-    margin-bottom: 100px;
-    
-  }
-  .main-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    border: solid 1px white;
-    grid-area: h1Title;
-    font-size: 40px;    
-    color: white;
-    letter-spacing: 15px;
-    
-}
-    #newsIntroContainer{
-    background-image: linear-gradient(to bottom, black, gray );
-    text-align: center;
-    padding: 30px;
-    border: solid 1px white;
-    background-color: black;
-    grid-area: newsIntro;
-}
-  #newsIntroContainer > *{
-      margin: 30px 0;
-}
-#newsMidContainer{
-    padding: 30px;
-    text-align: center;
-    border: solid 1px white;
-    background-color: black;
-    grid-area: newsMid;
-}
-  #newsMidContainer > *{
-    margin: 30px 0;
-}
+#newsMainTitle {
+  text-align: center;
+  font-size: 40px;
+  /* border: solid 1px black; */
+  margin: 30px;
+  padding: 15px;
+  color: black;
+  font-family: 'Otomanopee One', sans-serif;
+  letter-spacing: 15px; }
 
-#newsEndContainer{
-    padding: 30px;
-    text-align: center;
-    border: solid 1px white;
-    background-color: black;
-    grid-area: newsEnd;
-}
-#newsEndContainer > *{
-    margin: 30px 0;
-}
-#newsEndContainer1{
-    padding: 30px;
-    text-align: center;
-    border: solid 1px white;
-    background-color: black;
-    grid-area: noticias;
-}
-  #newsEndContainer1 > *{
-    margin: 30px 0;
-}
+.grid-news-container {
+  display: grid;
+  grid-template-areas: "h1Title h1Title" "newsIntro newsIntro" "newsMid newsEnd" "noticias noticias";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 3fr);
+  gap: 10px;
+  margin: 30px;
+  margin-bottom: 100px; }
+
+.main-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: solid 1px white;
+  grid-area: h1Title;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 15px; }
+
+#newsIntroContainer {
+  background-image: linear-gradient(to bottom, black, gray);
+  text-align: center;
+  padding: 30px;
+  border: solid 1px white;
+  background-color: black;
+  grid-area: newsIntro; }
+
+#newsIntroContainer > * {
+  margin: 30px 0; }
+
+#newsMidContainer {
+  padding: 30px;
+  text-align: center;
+  border: solid 1px white;
+  background-color: black;
+  grid-area: newsMid; }
+
+#newsMidContainer > * {
+  margin: 30px 0; }
+
+#newsEndContainer {
+  padding: 30px;
+  text-align: center;
+  border: solid 1px white;
+  background-color: black;
+  grid-area: newsEnd; }
+
+#newsEndContainer > * {
+  margin: 30px 0; }
+
+#newsEndContainer1 {
+  padding: 30px;
+  text-align: center;
+  border: solid 1px white;
+  background-color: black;
+  grid-area: noticias; }
+
+#newsEndContainer1 > * {
+  margin: 30px 0; }
+
 /* ---------- */
 /* about-us.html CSS --------------------------------------------------------------------------------------*/
-#aboutUsMainTitle{
-    text-align: center;
-    font-size: 40px;
-    /* border: solid 1px black; */
-    margin: 30px;
-    padding: 15px;
-    color: black;
-    font-family: 'Otomanopee One', sans-serif;
-    letter-spacing: 15px;
-}
-#aboutUsContainer{
-    margin: 30px;
-    
-    
-    color:black;
-    font-weight: bold;
-    font-size: 20px;
-    
-    
-    
-}
-.aboutUsBox{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 
-        "imagen titulo"
-        "imagen texto";
-        background-image: linear-gradient(to left, red , yellow);
-    margin: 50px;
-    
-    
-    
-}
-.aboutUsBox h5{
-    display: flex;
-    flex-direction: row wrap;
-    justify-content: center;
-    font-size: 46px;
-    align-items: center;
-    grid-area: titulo;
-    
-    
-}
-.aboutUsBox img{
-    width: 100%;
-    height: 100%;
-    grid-area: imagen;
-    
-}
-.aboutUsBox p{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    grid-area: texto;
-    padding: 20px;
-    
-}
-#containerAboutUs p{
-    text-align: center;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    line-height: 35px;
-    letter-spacing: 2px;
-    
+#aboutUsMainTitle {
+  text-align: center;
+  font-size: 40px;
+  /* border: solid 1px black; */
+  margin: 30px;
+  padding: 15px;
+  color: black;
+  font-family: 'Otomanopee One', sans-serif;
+  letter-spacing: 15px; }
 
+.section__aboutUsContainer {
+  margin: 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px; }
 
-}
+.section__aboutUsContainer__aboutUsBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "imagen titulo" "imagen texto";
+  background-image: linear-gradient(to left, red, yellow);
+  margin: 50px; }
+
+.section__aboutUsContainer__aboutUsBox h5 {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+  font-size: 46px;
+  align-items: center;
+  grid-area: titulo; }
+
+.section__aboutUsContainer__aboutUsBox img {
+  width: 100%;
+  height: 100%;
+  grid-area: imagen; }
+
+.section__aboutUsContainer__aboutUsBox p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-area: texto;
+  padding: 20px; }
+
+#containerAboutUs p {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  line-height: 35px;
+  letter-spacing: 2px; }
 
 /* -----------/
 /* products.html CSS --------------------------------------------------------------------------------------*/
-#productsTitle{
-    text-align: center;
-    font-size: 40px;
-    /* border: solid 1px black; */
-    margin: 30px;
-    padding: 15px;
-    color: black;
-    font-family: 'Otomanopee One', sans-serif;
-    letter-spacing: 15px;
-}
-#productsGallery{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100 px 100px 100px;
-    border: solid 5px black;
-    background-color:rgb(12, 25, 54);
-    
-}
-#productsGallery .product-box{
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
-    align-items: center;
-    
-    
-    border: solid 3px white;
-    margin: 15px;
-    padding: 40px;
-    
-}
-.product-box img{
-    width: 300px;
-    height: 200px;
-    padding: 10px;
-    border: solid 2px rgb(196, 101, 114);
-}
-.product-box h5{
-    padding: 10px;
-}
-.product-box p{
-    padding: 10px;
-}
-.product-box span{
-    padding: 10px;
-}
-#sectionParameter{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    
-    margin: 30px;
-    padding: 20px;
-    
-    
-}
-.searchParametersContainer{
-    border: solid 2px white;
-    margin: 30px;
-    padding: 20px;
-}
+#productsTitle {
+  text-align: center;
+  font-size: 40px;
+  /* border: solid 1px black; */
+  margin: 30px;
+  padding: 15px;
+  color: black;
+  font-family: 'Otomanopee One', sans-serif;
+  letter-spacing: 15px; }
 
-.pricesBox{
-    
-    display: flex;
-    background-color: green;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    border: solid 2px white;
-    margin: 30px;
-    padding: 50px;
-    
-}
-.pricesBox a{
-    padding: 15px;
-}
-.moreProductsContainer{
-    
-    background-color: rgb(3, 3, 3);
-    margin: 30px;
-    padding: 15px;
-    border: solid 2px green;
-    text-align: center;
+#productsGallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100 px 100px 100px;
+  border: solid 5px black;
+  background-color: #0c1936; }
 
-}
-.moreProductsContainer h3{
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Otomanopee One', sans-serif;
-    color: red;
-}
-.itemListProducts{
-    
-    
-}
-.itemListProducts li{
-    color: red;
-    font-size: 20px;
-    border: solid 2px white;
-    list-style: none;
-    margin: 30px;
-    padding: 15px;
-}
+#productsGallery .product-box {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  border: solid 3px white;
+  margin: 15px;
+  padding: 40px; }
 
+.product-box img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  border: solid 2px #c46572; }
+
+.product-box h5 {
+  padding: 10px; }
+
+.product-box p {
+  padding: 10px; }
+
+.product-box span {
+  padding: 10px; }
+
+#sectionParameter {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 20px; }
+
+.searchParametersContainer {
+  border: solid 2px white;
+  margin: 30px;
+  padding: 20px; }
+
+.pricesBox {
+  display: flex;
+  background-color: green;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 2px white;
+  margin: 30px;
+  padding: 50px; }
+
+.pricesBox a {
+  padding: 15px; }
+
+.moreProductsContainer {
+  background-color: #030303;
+  margin: 30px;
+  padding: 15px;
+  border: solid 2px green;
+  text-align: center; }
+
+.moreProductsContainer h3 {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Otomanopee One', sans-serif;
+  color: red; }
+
+.itemListProducts li {
+  color: red;
+  font-size: 20px;
+  border: solid 2px white;
+  list-style: none;
+  margin: 30px;
+  padding: 15px; }
 
 /* ----------*/
-
 /* contact-us.html CSS */
-#contactUsMainTitle{
-    text-align: center;
-    font-size: 40px;
-    /* border: solid 1px black; */
-    margin: 30px;
-    padding: 15px;
-    color: black;
-    font-family: 'Otomanopee One', sans-serif;
-    letter-spacing: 15px;
-}
-.formContainer{
-    margin: 15px;
-    padding: 15px;
-    background-image: url(../images/backgroundgalaxy.jpeg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    border: solid 1px white;
-    
+#contactUsMainTitle {
+  text-align: center;
+  font-size: 40px;
+  /* border: solid 1px black; */
+  margin: 30px;
+  padding: 15px;
+  color: black;
+  font-family: 'Otomanopee One', sans-serif;
+  letter-spacing: 15px; }
 
-}
+.formContainer {
+  margin: 15px;
+  padding: 15px;
+  background-image: url(../images/backgroundgalaxy.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 1px white; }
+
 /* ---------- */
-
 /* FAQ CSS of all .html */
-.faqContainer{
-    background-color: rgb(32, 30, 30);
-    padding: 15px;
-    color: white;
-    border: solid 1px white;
-    margin: 30px;
-    margin-top: 100px;
-    padding: 15px;
-    
+.section__faqContainer {
+  background-color: #201e1e;
+  padding: 15px;
+  color: white;
+  border: solid 1px white;
+  margin: 30px;
+  margin-top: 100px;
+  padding: 15px; }
 
-}
-.faqContainer h2{
-    text-align: center;
-    font-size: 40px;
-    transition: all 1s;
-}
-.faqContainer h2:hover{
-    transform: rotate(360deg) scale(2,2);
-    color: red;
-    margin: 30px;
-    
-}
-.faqContainer p{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: justify;
-    /* border: solid 1px white; */
-    margin: 15px;
-    padding: 10px;
-    
-}
-.faqContainer .faqQuestion{
-    font-style: italic;
-    color: rgb(165, 148, 70);
-    font-weight: bold;
-    transition: all 1s;
-}
-.faqContainer .faqQuestion:hover{
-    color: green;
-    transform: translate(40px, 20px);
-}
+.section__faqContainer h2 {
+  text-align: center;
+  font-size: 40px;
+  transition: all 1s; }
 
-.faqContainer .faqQuestion:hover + p{
-    color: red;
-    
-    
-    
-    
-}
+.section__faqContainer h2:hover {
+  transform: rotate(360deg) scale(2, 2);
+  color: red;
+  margin: 30px; }
+
+.section__faqContainer p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+  /* border: solid 1px white; */
+  margin: 15px;
+  padding: 10px; }
+
+.section__faqContainer__faqQuestion {
+  font-style: italic;
+  color: #a59446;
+  font-weight: bold;
+  transition: all 1s; }
+
+.section__faqContainer__faqQuestion:hover {
+  color: green;
+  transform: translate(40px, 20px); }
+
+.section__faqContainer__faqQuestion:hover + p {
+  color: red; }
 
 /* ---------- */
-@media only screen and (max-width: 768px){
-    body{
-        background-color: rgb(160, 157, 158);
-        color: rgb(199, 191, 116);
-    }
-    nav{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .navMenu{
-        display: flex;
-        flex-direction: column;
-        border: solid 5px black;
-        
-    }
-    .navMenu > *{
-        margin: 15px 0;
-    }
-    #indexMainTitle{
-        margin: 0 auto;
-    }
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #a09d9e;
+    color: #c7bf74; }
+  nav {
+    display: flex;
+    flex-direction: column; }
+  .navMenu {
+    display: flex;
+    flex-direction: column;
+    border: solid 5px black; }
+  .navMenu > * {
+    margin: 15px 0; }
+  #indexMainTitle {
+    margin: 0 auto; } }
 
-}
-@media only screen and (max-width: 480px){
-    body{
-        background-color: rgb(182, 20, 20);
-        color:white;
-    }
-    .navMenu{
-        border: solid 1px black;
-    }
-    .navMenu li a{
-        color: black;
-    }
-    #indexMainTitle{
-        margin: 0 auto;
-    }
-}
-@media only screen and (max-width: 360px){
-    body{
-        background-color: white;
-        color: rgb(197, 85, 169);
-        font-size: 12px;
-    }
-    .navMenu{
-        border: solid 2px red;
-        
-    }
-    .navMenu li a{
-        color: red;
-    }
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #b61414;
+    color: white; }
+  .navMenu {
+    border: solid 1px black; }
+  .navMenu li a {
+    color: black; }
+  #indexMainTitle {
+    margin: 0 auto; } }
 
-    
-    #indexMainTitle{
-    
+@media only screen and (max-width: 360px) {
+  body {
+    background-color: white;
+    color: #c555a9;
+    font-size: 12px; }
+  .navMenu {
+    border: solid 2px red; }
+  .navMenu li a {
+    color: red; }
+  #indexMainTitle {
     color: white;
     margin: 0 auto;
-    color: green;
-        
-
-    }
-}
+    color: green; } }
