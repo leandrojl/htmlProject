@@ -45,11 +45,43 @@
   
 
 .important-p {
-    @include important-text;
+    @include important-white-text;
+
+
+}
+.important-black-text{
+    @if $black{
+        color: $black;
+        font-size: 25px;
+    } @else{
+        color: white;
+    }
+}
+.background-gray{
+    background-color: gray;
+    
+    
+}
+.background-gray-container{
+    @extend .background-gray;
+    
+
+}
+.background-black{
+    background-color: black;
+    
+    
+}
+.background-black-container{
+    @extend .background-black;
+    
 
 }
 .border_black{
-    @include bordered(black, 3px);
+    @include bordered(black, 4px);
+}
+.border_red{
+    @include bordered(red, 4px);
 }
 
 
@@ -585,7 +617,7 @@ margin: 20px;
 @media only screen and (max-width: 768px){
     body{
         background-color: rgb(160, 157, 158);
-        color: rgb(199, 191, 116);
+        color: black;
     }
     nav{
         display: flex;

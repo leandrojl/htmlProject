@@ -4,12 +4,28 @@
     list-style: none;
 }
 
-@mixin important-text {
-    color: red;
+
+@mixin important-white-text {
+    color: white;
     font-size: 25px;
     font-weight: bold;
-    border: 1px solid blue;
+    
 }
 @mixin bordered($color, $width) {
     border: $width solid $color;
+}
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+@mixin horizontal-list {
+    @include reset-list;
+  
+    li {
+      display: inline-block;
+      margin: {
+        left: -2px;
+        right: 2em;
+      }
+    }
   }
