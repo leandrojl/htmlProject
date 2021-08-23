@@ -6,7 +6,16 @@
 *{
     @include reset-list;
 }
-
+.carrolaImg{
+max-width: 100%;
+height: auto;
+}
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 .fill { 
     min-height: 50%;
     height: 50%;
@@ -616,8 +625,7 @@ margin: 20px;
 /* ---------- */
 @media only screen and (max-width: 768px){
     body{
-        background-color: rgb(160, 157, 158);
-        color: black;
+        
     }
     nav{
         display: flex;
@@ -640,8 +648,8 @@ margin: 20px;
 }
 @media only screen and (max-width: 480px){
     body{
-        background-color: rgb(182, 20, 20);
-        color:white;
+        
+        
     }
     .navMenu{
         border: solid 1px black;
@@ -655,8 +663,7 @@ margin: 20px;
 }
 @media only screen and (max-width: 360px){
     body{
-        background-color: white;
-        color: rgb(197, 85, 169);
+        
         font-size: 12px;
     }
     .navMenu{
