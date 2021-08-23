@@ -3,6 +3,19 @@
   padding: 0;
   list-style: none; }
 
+.carrolaImg {
+  max-width: 100%;
+  height: auto; }
+
+.roboto-title {
+  font-family: "Roboto", sans-serif; }
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 .fill {
   min-height: 50%;
   height: 50%; }
@@ -493,9 +506,6 @@ html {
 
 /* ---------- */
 @media only screen and (max-width: 768px) {
-  body {
-    background-color: #a09d9e;
-    color: black; }
   nav {
     display: flex;
     flex-direction: column; }
@@ -509,9 +519,6 @@ html {
     margin: 0 auto; } }
 
 @media only screen and (max-width: 480px) {
-  body {
-    background-color: #b61414;
-    color: white; }
   .navMenu {
     border: solid 1px black; }
   .navMenu li a {
@@ -521,8 +528,6 @@ html {
 
 @media only screen and (max-width: 360px) {
   body {
-    background-color: white;
-    color: #c555a9;
     font-size: 12px; }
   .navMenu {
     border: solid 2px red; }
