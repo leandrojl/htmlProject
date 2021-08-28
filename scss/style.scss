@@ -7,8 +7,12 @@
     @include reset-list;
 }
 .carrolaImg{
-max-width: 100%;
-height: auto;
+width:100%;
+height: 800px;
+
+}
+.text-justify {
+    text-align: justify;
 }
 .roboto-title{
     font-family: $roboto;
@@ -630,60 +634,22 @@ margin: 20px;
     body{
         
     }
-    nav{
-        display: flex;
-        flex-direction: column;
+    .carrolaImg{
+        width:100%;
+        height: 20rem;
         
-    }
-    .navMenu{
-        display: flex;
-        flex-direction: column;
-        border: solid 5px black;
-        
-    }
-    .navMenu > *{
-        margin: 15px 0;
-    }
-    #indexMainTitle{
-        margin: 0 auto;
-    }
-
+        }
+    
 }
 @media only screen and (max-width: 480px){
-    body{
+    
+    .carrolaImg{
+        width:100%;
+        height: 20rem;
         
-        
-    }
-    .navMenu{
-        border: solid 1px black;
-    }
-    .navMenu li a{
-        color: black;
-    }
-    #indexMainTitle{
-        margin: 0 auto;
-    }
+        }
+    
 }
 @media only screen and (max-width: 360px){
-    body{
-        
-        font-size: 12px;
-    }
-    .navMenu{
-        border: solid 2px red;
-        
-    }
-    .navMenu li a{
-        color: red;
-    }
-
     
-    #indexMainTitle{
-    
-    color: white;
-    margin: 0 auto;
-    color: green;
-        
-
-    }
 }
