@@ -80,31 +80,14 @@ body {
   height: 60px; }
 
 /* index.html CSS --------------------------------------------------------------------------------------*/
-.section__mainTitle--style {
-  text-align: center;
-  font-size: 50px;
-  /* border: solid 1px black; */
-  margin: 30px;
-  padding: 15px;
+.title_class {
   color: black;
   font-family: 'Otomanopee One', sans-serif;
-  letter-spacing: 15px; }
+  letter-spacing: 3px; }
 
 html {
   font-family: 'Encode Sans SC', sans-serif; }
 
-/*.imageSection{
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-    transform: translate(100px, 200p);
-    margin-bottom: 120px;
-    padding: 30px;
-    color: black;
-    
-    height: 200px;
-}*/
 #containerAboutUs {
   display: flex;
   flex-flow: column wrap;
